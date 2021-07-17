@@ -17,7 +17,8 @@
 
 ### 컴퓨터 하드웨어 구성
 
-![image-20210718001111387](C:\Users\멋쟁이토마토\AppData\Roaming\Typora\typora-user-images\image-20210718001111387.png)
+![image](https://user-images.githubusercontent.com/59052290/126044638-0129cf61-40cc-4cb2-b3d1-02326f3e0ab2.png)
+
 
 #### CPU (Central Processing Unit)
 
@@ -70,5 +71,5 @@
 - Decode - 명령어 해석, 컨트롤 유닛
 - Execution - 연산을 진행, 보통은 ALU를 생각(ALU가 중심이 되어서 요소들의 협력으로 Execution)
 
-![image-20210718020258965](C:\Users\멋쟁이토마토\AppData\Roaming\Typora\typora-user-images\image-20210718020258965.png)
+![image](https://user-images.githubusercontent.com/59052290/126044663-4784f983-d176-4534-8333-270a920b4272.png)
 
