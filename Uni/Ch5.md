@@ -81,6 +81,12 @@
 
 - 멀티 프로세스 운영체제에서는 프로세스 하나가 계속해서 실행되는 것이 아니고, 여러 개의 프로세스들이 돌아가면서 실행되기 때문에, 프로세스 각각의 상태는 시간의 흐름에 따라 변화한다.
 
+<br/>
+
+![process_status](https://user-images.githubusercontent.com/70768269/126065707-dd8aa0b3-7eb0-459c-9f9c-5bbd3def34f7.jpg)
+
+<br/>
+
 - 상황 1: S(start)에서 Ready 상태로의 전이
     - S는 프로세스 생성을 의미
     - 프로세스는 생성과 동시에 Ready 상태로 들어간다.
@@ -113,10 +119,6 @@
 <br/>
 
 "CPU 내에 존재하는 레지스터들은 현재 실행 중에 있는 프로세스 관련 데이터들로 채워진다."
-
-<br/>
-
-![process_status](https://user-images.githubusercontent.com/70768269/126065707-dd8aa0b3-7eb0-459c-9f9c-5bbd3def34f7.jpg)
 
 <br/>
 
