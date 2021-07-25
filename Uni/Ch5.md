@@ -138,3 +138,64 @@
 - 이는 레지스터 개수가 많을수록, 프로세스별로 관리되어야 할 데이터 종류가 많을수록 더하다.
 
 → 시스템을 디자인하는데 있어서, 이러한 컨텍스트 스위칭 부담을 최소화 하기 위해 많은 노력이 필요함
+
+<br />
+
+## 4. 프로세스의 생성
+
+<br />
+
+### CreateProcess 함수의 이해
+
+<br />
+
+```c
+BOOL CreateProcess (
+	LPCTSTR IpAPPlicationName,  
+	LPTSTR IpCommandLine,
+	LPCECURITY_ATTRIBUTES IpProcessAttributes,
+	LPSECURITY_ATTRIBUTES IpThreadAttributes,
+	BOOL bInheritHandles,
+	DWORD dwCreationFlags,
+	LPVOID IpEnvironment,
+	LPCTSTR IpCurrentDirectory,
+	LPSTARTUPINFO IpStartupInfo,
+	LPPROCESS_INFORMATION IpProcessInformation
+);
+```
+
+<br />
+
+- **LPCTSTR IpAPPlicationName**: 생성할 프로세스의 실행파일 이름을 인자로 전달한다.
+- **LPTSTR IpCommandLine**: 생성하는 프로세스의 인자를 전달할 때, 이 매개변수를 사용
+
+<br />
+
+**CreateProcess 함수를 생성하기 위한 전체적인 구조**
+
+<br />
+
+CreateProcess 함수를 호출하기 위해서 2개의 구조체를 선언해야 한다.
+
+<br />
+
+1. LPSTARTUPINFO
+    - 생성하고자 원하는 프로세스 특성 정보를 설정하면서 인자로 전달
+    - CreateProcess 함수는 인자로 전달한 정보를 참조해서 요구사항에 맞게 프로세스를 생성
+    - 정보를 전달하기 위한 구조체
+
+2. LPPROCESS_INFORMATION
+    - 생성된 프로세스 정보를 반환하기 위한 구조체
+    - CreateProcess 함수를 호출할 때, 이 구조체를 먼저 선언해서 LPSTARTUPINFO 구조체와 함께 동시에 전달한다.
+    - CreateProcess 함수는 생성된 프로세스 정보를 LPPROCESS_INFORMATION 구조체에 채워준다.
+    - 정보를 얻기 위한 구조체
+
+<br/>
+
+**Process A(부모 프로세스) — CreateProcess에 의한 생성 —> Process B(자식 프로세스)**
+
+<br />
+
+    - CreateProcess 함수를 호출하는 프로세스를 부모 프로세스 (Parent Process)라고 한다.
+    - CreateProcess 함수 호출에 의해 생성된 프로세스를 가리켜 자식 프로세스 (Child Process)라고 한다.
+    - 생성하는 프로세스와 생성되는 프로세스 간에 부모-자식 간의 관계가 형성됨
