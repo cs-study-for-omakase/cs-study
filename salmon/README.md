@@ -10,3 +10,5 @@
 - 10장 [컴퓨터 구조에 대한 세 번째 이야기](https://makeitmin.github.io/Computer%20Science/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EC%84%B8-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0/)
 - 11장 [쓰레드의 이해](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C%EC%9D%98-%EC%9D%B4%ED%95%B4/)
 - 12장 [쓰레드의 생성과 소멸](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C%EC%9D%98-%EC%83%9D%EC%84%B1%EA%B3%BC-%EC%86%8C%EB%A9%B8/)
+- 13장 [쓰레드 동기화 기법 1](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-1/)
+- 14장 [쓰레드 동기화 기법 2](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-2/)
