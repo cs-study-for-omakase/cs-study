@@ -12,3 +12,4 @@
 - 12장 [쓰레드의 생성과 소멸](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C%EC%9D%98-%EC%83%9D%EC%84%B1%EA%B3%BC-%EC%86%8C%EB%A9%B8/)
 - 13장 [쓰레드 동기화 기법 1](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-1/)
 - 14장 [쓰레드 동기화 기법 2](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-2/)
+- 15장 [쓰레드 풀링(Pooling)](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%ED%92%80%EB%A7%81(pooling)/)
