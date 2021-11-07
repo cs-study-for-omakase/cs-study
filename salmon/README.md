@@ -15,3 +15,4 @@
 - 13장 [쓰레드 동기화 기법 1](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-1/)
 - 14장 [쓰레드 동기화 기법 2](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%EA%B8%B0%EB%B2%95-2/)
 - 15장 [쓰레드 풀링(Pooling)](https://makeitmin.github.io/Computer%20Science/%EC%93%B0%EB%A0%88%EB%93%9C-%ED%92%80%EB%A7%81(pooling)/)
+- 16장 [컴퓨터 구조에 대한 네 번째 이야기](https://makeitmin.github.io/Computer%20Science/%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%AC%EC%A1%B0%EC%97%90-%EB%8C%80%ED%95%9C-%EB%84%A4-%EB%B2%88%EC%A7%B8-%EC%9D%B4%EC%95%BC%EA%B8%B0/)
